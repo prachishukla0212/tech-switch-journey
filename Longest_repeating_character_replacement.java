@@ -23,7 +23,7 @@ public class Longest_repeating_character_replacement {
             );
             while(((j-i)+1)-maxLength> k){
                 Character ch= s.charAt(i);
-                frequency.put(ch, (frequency.get(c)-1));
+                frequency.put(ch, (frequency.get(ch)-1));
                 i++;
             }
 

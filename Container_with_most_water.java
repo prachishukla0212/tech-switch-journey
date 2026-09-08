@@ -34,7 +34,7 @@ public class Container_with_most_water {
                 2,
                 16,
                 4,
-                45
+                36
         };
 
         for (int i = 0; i < testCases.length; i++) {
